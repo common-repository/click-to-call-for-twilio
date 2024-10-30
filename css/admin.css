@@ -1,0 +1,39 @@
+/*
+TWT admin styles
+*/
+ul.twt-tab-bar {
+	width: 100%;
+	padding: 0;
+}
+ 
+ul.twt-tab-bar a {
+    float: left;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    margin-left: .5em;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 1.71428571;
+    font-weight: 600;
+    background: #e5e5e5;
+    color: #555;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.twt_settings .updated {
+    margin: 10px 5px 20px;
+}
+ul.twt-tab-bar .twt-tab-active a {
+    background: #fff;
+    outline: none;
+    box-shadow: none;
+}
+.twt_settings .welcome-panel {
+background:url('../img/twt-bg.svg');    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff !important;
+    display: block;
+    width: 100%;
+}
